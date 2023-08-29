@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <title>Counter</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <p id="number">0</p>
+            <div id="button-wrapper">
+                <!-- <input type="button" value="+" id="addition" onclick="add()"/> -->
+                <!-- <input type="button" value="+1" id="addition" onclick="add(1)"/>
+                <input type="button" value="+10" id="addition" onclick="add(10)"/>
+                <input type="button" value="-1" id="subtraction" onclick="subtract(1)"/>
+                <input type="button" value="-10" id="subtraction" onclick="subtract(10)"/> -->
+                <p id="instructions">Enter a number to add/subtract by:</p>
+                <input type="number" value="0" id="step"/>
+                <input type="button" value="Add" id ="addNumber" onclick="stepCalc(add)"/>
+                <input type="button" value="Subtract" id ="subtractNumber" onclick="stepCalc(subtract)"/>
+                
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
